@@ -33,19 +33,19 @@ const Login = () => {
     }
 
     return (
-        <>
-            <h2> Login </h2>
+        <div className="Login">
+            <h2> Welcome! </h2>
             <div className="fields">
                 <input 
                     type="text" 
-                    className="name" 
+                    className="input-field" 
                     value = {name}
                     onChange = {e => setName(e.target.value)}
                     placeholder='Name'
                 />
                 <input 
                     type="text" 
-                    className="email" 
+                    className="input-field" 
                     value = {email}
                     onChange = {e => setEmail(e.target.value)}
                     placeholder='Email'
@@ -54,8 +54,8 @@ const Login = () => {
             <button 
                 className="submit"
                 onClick = {submitButtonHandler}
-                >Submit</button>
-        </>
+                >Login</button>
+        </div>
     )
 
 }
