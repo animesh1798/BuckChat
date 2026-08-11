@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import "./Login.css"
 
 const Login = () => {
 
@@ -34,7 +35,7 @@ const Login = () => {
 
     return (
         <div className="Login">
-            <h2> Welcome! </h2>
+            <h3> Welcome! </h3>
             <div className="fields">
                 <input 
                     type="text" 

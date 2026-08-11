@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import "./OnlineUsers.css"
 
 interface User {
 
@@ -16,11 +17,13 @@ const OnlineUsers = () => {
   const [onlineUsers, setOnlineUsers] = React.useState<Array<OnlineUserProp>>([]);
   const navigate = useNavigate()
   const currentUserId = React.useRef<string>("")
+  const [currentUserName, setCurrentUserName] = React.useState<string>("")
   
   React.useEffect(() => {
     const myDetails = JSON.parse(sessionStorage.getItem("myDetails") ?? "");
     if (!myDetails) return
     currentUserId.current = myDetails.id
+    setCurrentUserName(myDetails.name)
     const getData = async () => {
       // console.log("running")
 
@@ -78,24 +81,33 @@ const OnlineUsers = () => {
 
   }
 
+let currentIndex = 1
+
   return (
-    <>
-    <button 
+    <div className="OnlineUsers">
+    <span 
+      className="username"
+      style={{fontSize: 18}}
+      >Welcome, {"  " + currentUserName.charAt(0).toUpperCase() + currentUserName.slice(1)}   !</span><button 
       className="logout"
       onClick = {handleLogout}
       >Logout</button>
-      {onlineUsers.map((value, index) => {
-        return (
-          currentUserId.current !== value.user.id && <div className="user-card" key={index+1}>
-            {index + 1} {value.user.name}
-            <button 
-              className="chat-to-user-button"
-              onClick = {() => chatToUserButtonHandler(value.user)}
-              >Chat</button>
-          </div>
-        );
-      })}
-    </>
+      <div className="online-users-container">
+        {onlineUsers.map((value, index) => {
+          return (
+            currentUserId.current !== value.user.id && <div className="user-card" key={index+1}>
+              <span className="user-index">{currentIndex++}</span> 
+              <span className="user-name">{value.user.name.charAt(0).toUpperCase() + value.user.name.slice(1)} </span>
+              <button 
+                className="chat-button"
+                onClick = {() => chatToUserButtonHandler(value.user)}
+                >Chat !</button>
+                <img src="../public/green-circle.png" alt="online status" style={{width: "15px"}}/>
+            </div>
+          );
+        })}
+      </div>
+    </div>
   );
 };
 

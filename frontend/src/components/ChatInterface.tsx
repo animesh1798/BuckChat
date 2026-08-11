@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import './ChatInterface.css'
 
 export interface Message {
     senderId: string,
@@ -127,12 +128,14 @@ const ChatInterface = () => {
     }
 
     return (<>
-        <button 
-            className="closeChat"
-            onClick = {closeChatBtnHandler}
-            >Close Chat</button>
         {commDetFlag && myDetails && <div className="App">
-            <h1>Chat UI</h1>
+            {receiverDetails && <div className="label">
+                <h2>{receiverDetails.name.charAt(0).toUpperCase() + receiverDetails?.name.slice(1)}</h2>
+                <button 
+                    className="close-chat"
+                    onClick = {closeChatBtnHandler}
+                    > X </button>
+            </div>}
             <div className="main-chat-container">
                 <div
                 className="chat-window"
@@ -149,8 +152,8 @@ const ChatInterface = () => {
                             message.senderId === myDetails.id ? "flex-end" : "flex-start",
                         }}
                     >
-                        {message.time} <br />
-                        {message.data}
+                        <span className="time">{message.time}</span> <br />
+                        <div className="data">{message.data}</div>
                     </div>
                     );
                 })}

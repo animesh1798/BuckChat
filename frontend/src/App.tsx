@@ -8,15 +8,17 @@ const App = () => {
   return (<>
 
     <nav className="navbar">
-      <h1>Buck</h1>
+      <img src="../public/bakbak-logo.svg" alt="logo" style={{width: "300px", marginLeft: "30px"}} />
     </nav>
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Login />} />
-        <Route path='/online' element={<OnlineUsers />} />
-        <Route path='/chat' element={<ChatInterface />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="parent">
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Login />} />
+          <Route path='/online' element={<OnlineUsers />} />
+          <Route path='/chat' element={<ChatInterface />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   </>
   )
 

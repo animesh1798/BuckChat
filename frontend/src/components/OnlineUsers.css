@@ -1,0 +1,72 @@
+.OnlineUsers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+
+.online-users-container {
+    margin-top: 1rem;
+    border: 1px solid #bababa;
+    width: 40vw;
+    padding: 8px 15px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.user-card {
+    display: grid;
+    grid-template-columns: 15% 45% 15% 10%;
+    align-items: center;
+    column-gap: 10px;
+
+    margin: 10px;
+    border: 1px solid #dada;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s ease-in-out;
+}
+
+.user-card:hover {
+    transform: scale(1.05);
+}
+
+.user-index,
+.user-name {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.user-name {
+    font-weight: normal;
+}
+.logout {
+    background-color: rgba(200, 0, 0);
+    border: 0;
+    padding: 4px 8px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out
+}
+
+.logout:active {
+    transform: scale(0.9)
+}
+.chat-button {
+    border: 0;
+    background-color:wheat;
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.chat-button:active {
+    transform: scale(0.9);
+}

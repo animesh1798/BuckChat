@@ -4,118 +4,14 @@
   align-items: center;
   justify-content: center;
 }
+
 .App {
+  width: 100vw;
+  height: 100vh;
   font-family: sans-serif;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.main-chat-container {
-  width: 70vw;
-  height: 80vh;
-  border: 1px solid black;
-}
-
-.chat-window {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  height: 90%;
-  border: 1px solid grey;
-  margin: 2px;
-  overflow-y: auto;
-}
-
-.message {
-  max-width: 40%;
-  height: fit-content;
-  border: 1px dotted black;
-  margin: 3px;
-  padding: 2px;
-}
-
-.send-message {
-  display: flex;
-  flex-direction: row;
-  border: 1px solid grey;
-  height: 8%;
-  margin: 2px;
-}
-
-.type-message {
-  margin: 3px;
-  width: 100%;
-  justify-content: left;
-}
-
-.text {
-  position: relative;
-  width: 95%;
-  height: 90%;
-}
-
-.scroll-to-bottom-button {
-  position: sticky;
-  bottom: 16px;
-  right: 16px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-
-.Login {
-  display: flex;
-  border: 1px solid gray;
-  border-radius: 5px;
-  padding: 5px;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  opacity: 0;
-  animation: fadeIn 0.3s ease-in forwards;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: scale(0);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-.fields {
-  display: flex;
-  flex-direction: column;
-}
-
-.input-field {
-  margin: 5px;
-  background-color: #eaeaea;
-  border: 0;
-  border-radius: 5px;
-  padding: 5px;
-  outline: none;
-}
-
-.submit {
-  margin: 10px;
-  border: 0;
-  background-color:yellowgreen;
-  color: white;
-  padding: 5px;
-  font-weight: bold;
-  border-radius: 5px;
-  transition: transform 0.1s ease-in-out;
-  cursor: pointer;
-}
-
-.submit:active {
-  transform: scale(0.9)
 }

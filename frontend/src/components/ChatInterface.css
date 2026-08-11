@@ -1,0 +1,119 @@
+.main-chat-container {
+  width: 70vw;
+  height: 80vh;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(247, 202, 209);
+  box-shadow: 0 25px 30px -10px rgba(255, 255, 255, 0.35);
+}
+
+.chat-window {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 2px;
+  overflow-y: auto;
+  background-color: rgb(236, 245, 248);
+}
+
+.message {
+  max-width: 40%;
+  height: fit-content;
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin: 3px;
+  padding: 3px 10px;
+  background-color: rgb(245, 244, 239);
+}
+
+.send-message {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 8%;
+  margin: 2px;
+}
+
+.type-message {
+  margin: 3px;
+  width: 100%;
+  justify-content: left;
+}
+
+.text {
+  position: relative;
+  width: 95%;
+  height: 90%;
+}
+
+.scroll-to-bottom-button {
+  position: sticky;
+  bottom: 16px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.close-chat {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 1px 5px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+}
+.close-chat:hover {
+    transform: scale(1.2);
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-right: 10px;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+.data {
+    font-size: large;
+}
+.time {
+    color: gray;
+}
+.send-message {
+    background-color: lavender;
+    display: flex;
+}
+.send {
+    border: 0 ;
+    background-color: rgb(203, 216, 189);
+    border-radius: 5px;
+    margin: 4px;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out;
+}
+
+.send:active {
+    transform: scale(0.9)
+}
+
+.text {
+    border-radius: 10px;
+    border: 0;
+    margin: 1px;
+    padding-left: 5px;
+    min-height: 70%;
+}
