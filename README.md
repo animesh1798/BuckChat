@@ -16,9 +16,6 @@
 <path d="M100 145 C90 150 78 150 70 142"/>
 </g>
 
-<text x="270" y="130" font-size="64" font-weight="500" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" letter-spacing="1">Bak-Bak</text>
-</svg>
-
 <defs>
 <linearGradient id="yellowPinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
 <stop offset="0%" stop-color="#f5ec8e"/>
