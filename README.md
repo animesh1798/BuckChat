@@ -92,9 +92,8 @@ See who else is online and jump into a chat with them.
 
 | | |
 |---|---|
-| ![Dashboard 1](<img width="600" height="313" alt="preview3" src="https://github.com/user-attachments/assets/c5a68b72-95f6-4fea-a794-b242628e9699" />
-) | ![Dashboard 2](<img width="636" height="303" alt="preview4" src="https://github.com/user-attachments/assets/1f7b6c64-1efb-4096-8b6b-eebb483c564e" />
-) |
+| ![Dashboard 1]<img width="600" height="313" alt="preview3" src="https://github.com/user-attachments/assets/c5a68b72-95f6-4fea-a794-b242628e9699" /> | ![Dashboard 2]<img width="636" height="303" alt="preview4" src="https://github.com/user-attachments/assets/1f7b6c64-1efb-4096-8b6b-eebb483c564e" />
+ |
 
 ### Real-Time Chat
 Messages are delivered instantly over WebSockets.
