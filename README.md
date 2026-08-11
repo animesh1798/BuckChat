@@ -83,21 +83,26 @@ Sign in with just a name and email.
 
 | | |
 |---|---|
-| ![Login screen 1](./assets/login-1.png) | ![Login screen 2](./assets/login-2.png) |
+| ![Login screen 1](<img width="322" height="355" alt="preview1" src="https://github.com/user-attachments/assets/7b1b1f64-c446-4731-9036-1e6f6ba58bc7" />
+) | ![Login screen 2](<img width="289" height="349" alt="preview2" src="https://github.com/user-attachments/assets/e539d547-900e-420b-8e12-1c2422c0fe1f" />
+) |
 
 ### Online Users
 See who else is online and jump into a chat with them.
 
 | | |
 |---|---|
-| ![Dashboard 1](./assets/dashboard-1.png) | ![Dashboard 2](./assets/dashboard-2.png) |
+| ![Dashboard 1](<img width="600" height="313" alt="preview3" src="https://github.com/user-attachments/assets/c5a68b72-95f6-4fea-a794-b242628e9699" />
+) | ![Dashboard 2](<img width="636" height="303" alt="preview4" src="https://github.com/user-attachments/assets/1f7b6c64-1efb-4096-8b6b-eebb483c564e" />
+) |
 
 ### Real-Time Chat
 Messages are delivered instantly over WebSockets.
 
 | | |
 |---|---|
-| ![Chat window 1](./assets/chat-1.png) | ![Chat window 2](./assets/chat-2.png) |
+| ![Chat window 1](<img width="851" height="893" alt="preview5" src="https://github.com/user-attachments/assets/75475262-920e-410a-bba3-f50742dc79a0" />) | ![Chat window 2](<img width="840" height="881" alt="preview6" src="https://github.com/user-attachments/assets/6e236aac-dcbf-44e0-9ff2-e3c52042f44c" />
+) |
 
 ## Data Model
 
