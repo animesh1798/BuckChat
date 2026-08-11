@@ -1,7 +1,25 @@
-<p align="center">
-  <img src="./frontend/public/bakbak-logo.svg" width="500" alt="Bak-Bak logo" />
-  <h1 align="center">Bak-Bak</h1>
-</p>
+<svg width="680" height="220" viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Bak-Bak logo</title>
+<desc>Minimalist single-color line-art parrot head icon with the Bak-Bak wordmark</desc>
+
+<defs>
+<linearGradient id="yellowPinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#f5ec8e"/>
+<stop offset="50%" stop-color="#f5cfc0"/>
+<stop offset="100%" stop-color="#f9c9de"/>
+</linearGradient>
+</defs>
+
+<g fill="none" stroke="#b8860b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<path fill="url(#yellowPinkGrad)" d="M120 60 C160 50 190 70 195 105 C198 128 185 148 165 158 L165 175 C165 180 160 183 156 179 L145 165 C120 168 98 152 92 128 C86 104 96 72 120 60 Z"/>
+<path fill="url(#yellowPinkGrad)" d="M195 105 C215 100 230 108 232 118 C230 126 215 130 197 122"/>
+<circle cx="145" cy="90" r="4" fill="#b8860b"/>
+<path d="M92 128 C80 132 68 130 62 122" />
+<path d="M100 145 C90 150 78 150 70 142"/>
+</g>
+
+<text x="270" y="130" font-size="64" font-weight="500" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" letter-spacing="1">Bak-Bak</text>
+</svg>
 
 
 <p align="center">
