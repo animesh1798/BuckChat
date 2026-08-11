@@ -239,4 +239,4 @@ Since this is a skeleton app, some natural next steps:
 
 ## License
 
-No license file is currently included. Add one (e.g. MIT) if you plan to accept contributions or allow reuse.
+No license file is currently included. 
