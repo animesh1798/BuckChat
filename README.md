@@ -81,27 +81,32 @@
 ### Login
 Sign in with just a name and email.
 
-| | |
-|---|---|
-| ![Login screen 1](<img width="322" height="355" alt="preview1" src="https://github.com/user-attachments/assets/7b1b1f64-c446-4731-9036-1e6f6ba58bc7" />
-) | ![Login screen 2](<img width="289" height="349" alt="preview2" src="https://github.com/user-attachments/assets/e539d547-900e-420b-8e12-1c2422c0fe1f" />
-) |
+<table>
+  <tr>
+    <td><img width="322" alt="Login screen 1" src="https://github.com/user-attachments/assets/7b1b1f64-c446-4731-9036-1e6f6ba58bc7" /></td>
+    <td><img width="289" alt="Login screen 2" src="https://github.com/user-attachments/assets/e539d547-900e-420b-8e12-1c2422c0fe1f" /></td>
+  </tr>
+</table>
 
 ### Online Users
 See who else is online and jump into a chat with them.
 
-| | |
-|---|---|
-| ![Dashboard 1]<img width="600" height="313" alt="preview3" src="https://github.com/user-attachments/assets/c5a68b72-95f6-4fea-a794-b242628e9699" /> | ![Dashboard 2]<img width="636" height="303" alt="preview4" src="https://github.com/user-attachments/assets/1f7b6c64-1efb-4096-8b6b-eebb483c564e" />
- |
+<table>
+  <tr>
+    <td><img width="600" alt="Online users dashboard 1" src="https://github.com/user-attachments/assets/c5a68b72-95f6-4fea-a794-b242628e9699" /></td>
+    <td><img width="636" alt="Online users dashboard 2" src="https://github.com/user-attachments/assets/1f7b6c64-1efb-4096-8b6b-eebb483c564e" /></td>
+  </tr>
+</table>
 
 ### Real-Time Chat
 Messages are delivered instantly over WebSockets.
 
-| | |
-|---|---|
-| ![Chat window 1](<img width="851" height="893" alt="preview5" src="https://github.com/user-attachments/assets/75475262-920e-410a-bba3-f50742dc79a0" />) | ![Chat window 2](<img width="840" height="881" alt="preview6" src="https://github.com/user-attachments/assets/6e236aac-dcbf-44e0-9ff2-e3c52042f44c" />
-) |
+<table>
+  <tr>
+    <td><img width="420" alt="Chat window 1" src="https://github.com/user-attachments/assets/75475262-920e-410a-bba3-f50742dc79a0" /></td>
+    <td><img width="420" alt="Chat window 2" src="https://github.com/user-attachments/assets/6e236aac-dcbf-44e0-9ff2-e3c52042f44c" /></td>
+  </tr>
+</table>
 
 ## Data Model
 
