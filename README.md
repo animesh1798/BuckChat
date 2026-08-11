@@ -1,4 +1,4 @@
-<img width="680" height="220" alt="bakbak-logo (1)" src="https://github.com/user-attachments/assets/2f829092-4063-4321-8fe1-c24e3e9fb192" />
+<img width="680" height="220" align="center" alt="bakbak-logo (1)" src="https://github.com/user-attachments/assets/2f829092-4063-4321-8fe1-c24e3e9fb192" />
 
 <defs>
 <linearGradient id="yellowPinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -31,10 +31,6 @@
 <path d="M92 128 C80 132 68 130 62 122" />
 <path d="M100 145 C90 150 78 150 70 142"/>
 </g>
-
-<text x="270" y="130" font-size="64" font-weight="500" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" letter-spacing="1">Bak-Bak</text>
-</svg>
-
 
 <p align="center">
   A skeleton end-to-end web chat application — log in, see who's online, and chat in real time over raw WebSockets.
