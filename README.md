@@ -1,5 +1,4 @@
-<img width="680" height="220" alt="bakbak-logo (1)" src="https://github.com/user-attachments/assets/2f829092-4063-4321-8fe1-c24e3e9fb192" />![<svg width="680" height="220" viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg" role="img">
-
+<img width="680" height="220" alt="bakbak-logo (1)" src="https://github.com/user-attachments/assets/2f829092-4063-4321-8fe1-c24e3e9fb192" />
 
 <defs>
 <linearGradient id="yellowPinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -19,10 +18,6 @@
 
 <text x="270" y="130" font-size="64" font-weight="500" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" letter-spacing="1">Bak-Bak</text>
 </svg>
-Uploading bakbak-logo (1).svg…]()
-
-<title>Bak-Bak logo</title>
-<desc>Minimalist single-color line-art parrot head icon with the Bak-Bak wordmark</desc>
 
 <defs>
 <linearGradient id="yellowPinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
