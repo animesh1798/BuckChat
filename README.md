@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./frontend/public/bakbak-logo.svg" width="90" alt="Bak-Bak logo" />
+  <img src="./frontend/public/bakbak-logo.svg" width="200" alt="Bak-Bak logo" />
 </p>
 
 <h1 align="center">Bak-Bak</h1>
