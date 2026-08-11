@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./frontend/public/bakbak-logo.svg" width="200" alt="Bak-Bak logo" />
+  <img src="./frontend/public/bakbak-logo.svg" width="500" alt="Bak-Bak logo" />
+  <h1 align="center">Bak-Bak</h1>
 </p>
 
-<h1 align="center">Bak-Bak</h1>
 
 <p align="center">
   A skeleton end-to-end web chat application — log in, see who's online, and chat in real time over raw WebSockets.
